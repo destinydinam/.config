@@ -658,6 +658,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- Auto start Applications
 awful.spawn.with_shell("picom")
 awful.spawn.with_shell("nitrogen --restore")
+awful.spawn.with_shell("copyq")
 
 -- Custom configs
- beautiful.useless_gap=2
+ beautiful.useless_gap=1
