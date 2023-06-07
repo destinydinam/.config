@@ -409,7 +409,16 @@ awful.key({ modkey }, "c", function () awful.spawn("code") end,
           awful.key({ modkey }, "Print", function () awful.spawn("flameshot gui") end,
           { description = "Take Screenshot", group = "Applications" }),
 
-          -- Pulsemixer
+-- Spotify
+          awful.key({ modkey }, "v", function () awful.spawn("spotify") end,
+          { description = "Open Spotify", group = "Applications" }),
+
+-- Telegram 
+          awful.key({ modkey }, "d", function () awful.spawn("telegram-desktop") end,
+          { description = "Open Telegram", group = "Applications" }),
+
+
+ -- Pulsemixer
 awful.key({}, "XF86AudioLowerVolume", function() awful.spawn("pulsemixer --change-volume -5") end,
           {description = "Decrease volume", group = "awesome"}),
 awful.key({}, "XF86AudioRaiseVolume", function() awful.spawn("pulsemixer --change-volume +5") end,
@@ -661,4 +670,5 @@ awful.spawn.with_shell("nitrogen --restore")
 awful.spawn.with_shell("copyq")
 
 -- Custom configs
+--
  beautiful.useless_gap=1
