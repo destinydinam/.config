@@ -380,13 +380,13 @@ globalkeys = gears.table.join(
 
               -- Decrease brightness
 awful.key({ }, "XF86MonBrightnessDown", function ()
-    awful.spawn("brillo -U 2")
+    awful.spawn("brillo -U 1")
 end,
 {description = "Decrease brightness", group = "Custom Keybindings"}),
 
 -- Increase brightness
 awful.key({ }, "XF86MonBrightnessUp", function ()
-    awful.spawn("brillo -A 2")
+    awful.spawn("brillo -A 1")
 end,
 {description = "Increase brightness", group = "Custom Keybindings"}),
 

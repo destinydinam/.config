@@ -1,0 +1,102 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.newWindow",
+    "when": "!explorerViewletFocus"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "!explorerViewletFocus"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "!explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+;",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "!explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "!explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.terminal.splitInActiveWorkspace",
+    "when": "view.terminal.visible"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.terminal.focusAtIndex1",
+    "when": "view.terminal.visible"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.terminal.focusAtIndex2",
+    "when": "view.terminal.visible"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.terminal.focusAtIndex3",
+    "when": "view.terminal.visible"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "workbench.action.terminal.focusAtIndex4",
+    "when": "view.terminal.visible"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.view.explorer",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+right",
+    "command": "typescript.goToSourceDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+q",
+    "command": ""
+  },
+  {
+    "key": "ctrl+h",
+    "command": "editor.action.showHover"
+  },
+  {
+    "key": "ctrl+pageDown",
+    "command": "workbench.action.increaseViewWidth"
+  },
+  {
+    "key": "ctrl+pageUp",
+    "command": "workbench.action.decreaseViewWidth"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "workbench.action.terminal.resizePaneUp"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "workbench.action.terminal.resizePaneDown"
+  }
+]
