@@ -1,0 +1,82 @@
+{
+  // "editor.lineNumbers": "relative",
+  // "editor.suggest.insertMode": "replace",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.codeActionsOnSave": { "source.organizeImports": true },
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.logMessagePrefix": "",
+  "workbench.editor.showTabs": false,
+  "window.titleBarStyle": "custom",
+  "workbench.statusBar.visible": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.menuBarVisibility": "compact",
+  "glassit.alpha": 220,
+  "editor.scrollbar.verticalScrollbarSize": 13,
+  // "background.fullscreen": {
+  //   "image": "file:///home/emd/Pictures/Wallpapers/1200985.jpg", // url of your image
+  //   // "image": ["https://pathtoimage.png"], // An array may be useful when set interval for carousel
+  //   "opacity": 0.86, // 0.85 ~ 0.95 recommended
+  //   "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+  //   "position": "center", // alias to `background-position`, default `center`
+  //   "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+  // },
+  "tailwindCSS.experimental.configFile": null,
+  "workbench.editorAssociations": {
+    "*.out": "default"
+  },
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorCustomizations": {
+    "editor.background": "#000",
+    "editorHoverWidget.background": "#000",
+    "sideBar.background": "#000",
+    "titleBar.activeBackground": "#000",
+    "editorSuggestWidget.background": "#000",
+    "quickInput.background": "#000"
+  },
+  // "editor.tokenColorCustomizations": {
+  //   "textMateRules": [
+  //     {
+  //       "scope": "comment",
+  //       "settings": {
+  //         "fontStyle": "italic"
+  //       }
+  //     }
+  //   ]
+  // },
+  "workbench.activityBar.visible": false,
+  "telemetry.telemetryLevel": "off",
+  "gitlens.telemetry.enabled": false,
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "totalTypeScript.hiddenTips": [
+    "variable-type-annotation",
+    "as-assertion",
+    "ts-object-type",
+    "optional-object-property",
+    "basic-types",
+    "union-type",
+    "array-type",
+    "undefined-keyword",
+    "type-alias-declaration",
+    "typing-function-parameters",
+    "null-keyword"
+  ],
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.linkedEditing": true,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "css",
+    "styles"
+  ]
+}
