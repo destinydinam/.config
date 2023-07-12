@@ -1,0 +1,2 @@
+============ LINKS ==========
+1. https://developer.flutterwave.com/docs/collecting-payments/standard ---> flutterwave Payment gateway
