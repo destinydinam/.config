@@ -671,4 +671,4 @@ awful.spawn.with_shell("copyq")
 
 -- Custom configs
 --
- beautiful.useless_gap=1
+ beautiful.useless_gap=2

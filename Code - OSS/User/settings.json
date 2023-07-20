@@ -1,6 +1,16 @@
 {
   // "editor.lineNumbers": "relative",
   // "editor.suggest.insertMode": "replace",
+  "emojisense.languages": {
+    "javascript": true,
+    "javascriptreact": true,
+    "typescriptreact": true,
+    "html": true,
+    "css": true,
+    "c": true,
+    "cpp": true,
+    "go": true
+  },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.minimap.enabled": false,
   "workbench.startupEditor": "none",
@@ -16,7 +26,7 @@
   "workbench.statusBar.visible": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "window.menuBarVisibility": "compact",
-  "glassit.alpha": 220,
+  "glassit.alpha": 235,
   "editor.scrollbar.verticalScrollbarSize": 13,
   // "background.fullscreen": {
   //   "image": "file:///home/emd/Pictures/Wallpapers/1200985.jpg", // url of your image
@@ -78,5 +88,6 @@
     "ngClass",
     "css",
     "styles"
-  ]
+  ],
+  "editor.multiCursorLimit": 100000
 }
