@@ -1,27 +1,17 @@
 {
+  "window.commandCenter": false,
   "editor.minimap.enabled": false,
-  "workbench.startupEditor": "none",
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "turboConsoleLog.includeFileNameAndLineNum": false,
   "turboConsoleLog.logMessagePrefix": "",
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": "single",
   "window.titleBarStyle": "custom",
-  "workbench.statusBar.visible": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "window.menuBarVisibility": "compact",
-  "glassit.alpha": 220,
+  "glassit.alpha": 100,
   "editor.scrollbar.verticalScrollbarSize": 13,
-  // "background.fullscreen": {
-  //   "image": "file:///home/emd/Pictures/Wallpapers/1200985.jpg", // url of your image
-  //   // "image": ["https://pathtoimage.png"], // An array may be useful when set interval for carousel
-  //   "opacity": 0.86, // 0.85 ~ 0.95 recommended
-  //   "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
-  //   "position": "center", // alias to `background-position`, default `center`
-  //   "interval": 0 // seconds of interval for carousel, default `0` to disabled.
-  // },
   "tailwindCSS.experimental.configFile": null,
   "workbench.editorAssociations": {
     "*.out": "default"
@@ -33,32 +23,27 @@
     "sideBar.background": "#000",
     "titleBar.activeBackground": "#000",
     "editorSuggestWidget.background": "#000",
-    "quickInput.background": "#000"
+    "quickInput.background": "#000",
+    "terminal.background": "#000"
   },
-  "workbench.activityBar.visible": false,
   "telemetry.telemetryLevel": "off",
-  "gitlens.telemetry.enabled": false,
-  "totalTypeScript.hideAllTips": false,
-  "totalTypeScript.hideBasicTips": false,
-  "totalTypeScript.hiddenTips": [
-    "variable-type-annotation",
-    "as-assertion",
-    "ts-object-type",
-    "optional-object-property",
-    "basic-types",
-    "union-type",
-    "array-type",
-    "undefined-keyword",
-    "type-alias-declaration",
-    "typing-function-parameters",
-    "null-keyword"
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "editor.renderWhitespace": "none",
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "class:list",
+    "imgClassName",
+    "btnClassName"
   ],
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.linkedEditing": true
-  // "[c]": {
-  //   "editor.defaultFormatter": "ms-vscode.cpptools"
-  // },
-  // "[cpp]": {
-  //   "editor.defaultFormatter": "ms-vscode.cpptools"
-  // },
+  "workbench.iconTheme": "vscode-icons",
+  "[kotlin]": {
+    "editor.defaultFormatter": "esafirm.kotlin-formatter"
+  },
+  "kotlin.languageServer.enabled": false,
+  "kotlin.debugAdapter.enabled": false,
+  "cursor.composer.cmdPFilePicker2": true,
+  "cursor.composer.collapsePaneInputBoxPills": true
 }
